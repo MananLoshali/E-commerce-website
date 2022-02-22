@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product details</title>
+    <link rel="stylesheet" href="../Styles/product.css">
+</head>
+<body>
+    <div id="main-heading">
+      <div class="head-container-ml">
+        <h1 id="head1-ml" class="fancy">Great bazzar</h1>
+        <div id="user-detail"></div>
+      </div>
+      <h1>Product Details</h1>
+      <input id="product-name" type="text" placeholder="Product name">
+      <input type="file" id="input_image" accept="image/png,image/jpeg,image/jpg">
+      <input id = "product-price" type="text" placeholder="Product price">
+      <label for="cars">Category:</label>
+
+        <select id="product-type">
+          <option class="user-type-options" value="mobile">Mobile</option>
+          <option class="user-type-options" value="laptop">Laptop</option>
+          <option class="user-type-options" value="watch">Watch</option>
+        </select> 
+        <img id="test" />
+    <button onclick="onSubmit()">Submit</button>
+      <script src="../Js/product.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In</title>
+    <link rel="stylesheet" href="../Styles/sign_up.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="sign_up">
+        <h2>Sign up</h2>
+        <!-- <form class="form" onsubmit="onSubmit()"> -->
+        <input id="user-name" type="text" placeholder="Name" />
+        <input id="user-email" type="email" placeholder="email" />
+        <label for="cars">Sign in as a:</label>
+
+        <select id="user-type">
+          <option class="user-type-options" value="seller">Seller</option>
+          <option class="user-type-options" value="buyer">Buyer</option>
+        </select>
+
+        <input id="user-password" type="password" placeholder="password" />
+        <input
+          id="confirm-user-password"
+          type="password"
+          placeholder="confirm password"
+        />
+        <span class="invalid-email"></span>
+        <button id="submit-btn" type="submit">Sign Up</button>
+        <p id="user">Already a User? <a href="./sign_in.html">Sign In</a></p>
+      </div>
+    </div>
+    <script src="../Js/signup.js"></script>
+  </body>
+</html>

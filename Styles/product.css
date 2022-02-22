@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.head-container-ml {
+  display: flex;
+  background-color: blueviolet;
+  height: 50px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+#user-detail {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+h1 {
+  padding-left: 20px;
+}
